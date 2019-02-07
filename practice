@@ -1,0 +1,45 @@
+1)grep -i CLOSED /data/retail_db/orders/part-00000 
+2)grep -i CLOSED /data/retail_db/orders/part-00000 | wc -l
+3) find  . -name "create_log*.log" -mtime +7
+4)uname -a
+5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000
+6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head
+7)cut --help
+8)[jagjit8301@gw02 orders]$ cut -d, -f2-4 part-00000|head
+9)[jagjit8301@gw02 orders]$ cut -c3-6 part-00000|head
+10)[jagjit8301@gw02 ~]$ du -s *|sort -n
+11)[jagjit8301@gw02 orders]$  head part-00000
+12)[jagjit8301@gw02 orders]$ wc -l part-00000
+13)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000
+14)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000|head
+15)uniq --help
+16)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000|uniq |head
+17)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000|sort|uniq |head
+18)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000|sort|uniq -c
+19)cat /etc/redhat-release
+20)lscpu
+21)uptime
+22)top
+23)free -h
+24)df -h
+25)cat /etc/fstab
+26)du .
+27)du -s
+28)du -sh
+29)ps -ef
+30)ps -A
+31) sed -e 's/COMPLETE$/COMPLETED/g' part-00000 
+32)crontab -l   - lists the cronjobs
+33)crontab -e   -   add crons
+34)ip addr
+35) ls -a
+36)ll
+37)jagjitsingh@JAGJITSINGH:~$ ssh-copy-id jagjit8301@gw02.itversity.com
+38)jagjitsingh@JAGJITSINGH:~$ ssh-keygen
+39)touch helloworld.sh
+40)chmod u+x helloworld.sh
+41)./helloworld
+42)vi helloworld.sh
+43)[jagjit8301@gw02 ~]$ mysql -h ms.itversity.com -u retail_user -p for going to mysql
+44)[jagjit8301@gw02 retail_db]$ wc -l */part*
+45)ls -lthr
