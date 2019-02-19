@@ -1,4 +1,4 @@
-1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 #will give complete list of lines in file
+1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 #will give complete list of lines in file containing CLOSED
 2)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 | wc -l #will give count of lines in file
 3) find  . -name "create_log*.log" -mtime +7 #not understood
 4)uname -a
