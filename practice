@@ -1,14 +1,14 @@
-1)grep -i CLOSED /data/retail_db/orders/part-00000 
-2)grep -i CLOSED /data/retail_db/orders/part-00000 | wc -l
-3) find  . -name "create_log*.log" -mtime +7
-4)uname -a
-5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000
-6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head
-7)cut --help
-8)[jagjit8301@gw02 orders]$ cut -d, -f2-4 part-00000|head
-9)[jagjit8301@gw02 orders]$ cut -c3-6 part-00000|head
+1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 #will give complete list of lines in file containing CLOSED
+2)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 | wc -l #will give count of lines in file
+3) find  . -name "create_log*.log" -mtime +7 #not understood
+4)uname -a #
+5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000 #
+6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head #
+7)cut --help #
+8)[jagjit8301@gw02 orders]$ cut -d, -f2-4 part-00000|head #
+9)[jagjit8301@gw02 orders]$ cut -c3-6 part-00000|head #
 10)[jagjit8301@gw02 ~]$ du -s *|sort -n
-11)[jagjit8301@gw02 orders]$  head part-00000
+11)[jagjit8301@gw02 orders]$  head part-00000 # Gives first 10 lines of file
 12)[jagjit8301@gw02 orders]$ wc -l part-00000
 13)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000
 14)[jagjit8301@gw02 orders]$ cut -d, -f4 part-00000|head
@@ -23,7 +23,7 @@
 23)free -h
 24)df -h
 25)cat /etc/fstab
-26)du .
+26)du . #will give complete list of directories & file
 27)du -s
 28)du -sh
 29)ps -ef
