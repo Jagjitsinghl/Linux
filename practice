@@ -1,5 +1,5 @@
 1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000
-2)grep -i CLOSED /data/retail_db/orders/part-00000 | wc -l
+2)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 | wc -l
 3) find  . -name "create_log*.log" -mtime +7
 4)uname -a
 5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000
