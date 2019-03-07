@@ -5,7 +5,10 @@ ls -ltr | grep rwxrwxrwx
 jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000|head
 jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep COMPLETE part-00000|head
 jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ view part-00000
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000 | wc -l
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db$ wc -l */part*
 find . -name "*.txt"
+jagjitsingh@JAGJITSINGH:/$ find . -name "*.log" -mtime -1
 4)uname -a #
 5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000 #
 6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head #
