@@ -45,3 +45,4 @@
 45)ls -lthr
 46)sudo visudo
 47)sudo su - root
+48)ps -ef | grep sshd
