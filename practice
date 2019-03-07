@@ -4,6 +4,7 @@ ls -ltr | grep jagjitsingh
 ls -ltr | grep rwxrwxrwx
 jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000|head
 jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep COMPLETE part-00000|head
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ view part-00000
 find . -name "*.txt"
 4)uname -a #
 5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000 #
