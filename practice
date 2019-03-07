@@ -43,3 +43,5 @@
 43)[jagjit8301@gw02 ~]$ mysql -h ms.itversity.com -u retail_user -p for going to mysql
 44)[jagjit8301@gw02 retail_db]$ wc -l */part*
 45)ls -lthr
+46)sudo visudo
+47)sudo su - root
