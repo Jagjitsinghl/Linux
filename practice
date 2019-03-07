@@ -1,6 +1,10 @@
 1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 #will give complete list of lines in file containing CLOSED
 2)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 | wc -l #will give count of lines in file
-3) find  . -name "create_log*.log" -mtime +7 #not understood
+ls -ltr | grep jagjitsingh
+ls -ltr | grep rwxrwxrwx
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000|head
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep COMPLETE part-00000|head
+find . -name "*.txt"
 4)uname -a #
 5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000 #
 6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head #
