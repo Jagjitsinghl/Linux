@@ -55,6 +55,9 @@ jagjitsingh@JAGJITSINGH:/mnt/c/bigdata$ source helloworld.sh
 42)vi helloworld.sh #open script file
 
 
+jagjitsingh@JAGJITSINGH:/mnt/c/bigdata$ date +'%Y'
+jagjitsingh@JAGJITSINGH:/mnt/c/bigdata$ date +'%Y-%m-%d'
+
 43)[jagjit8301@gw02 ~]$ mysql -h ms.itversity.com -u retail_user -p for going to mysql
 44)[jagjit8301@gw02 retail_db]$ wc -l */part*
 45)ls -lthr
