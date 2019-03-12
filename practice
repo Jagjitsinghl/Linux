@@ -44,6 +44,11 @@ jagjitsingh@JAGJITSINGH:/$ find . -name "*.log" -mtime -1
 36)ll
 37)jagjitsingh@JAGJITSINGH:~$ ssh-copy-id jagjit8301@gw02.itversity.com
 38)jagjitsingh@JAGJITSINGH:~$ ssh-keygen
+//shell scripting
+cat /etc/shells
+:wq
+:q!
+
 39)touch helloworld.sh
 40)chmod u+x helloworld.sh
 41)./helloworld
