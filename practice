@@ -48,7 +48,7 @@ jagjitsingh@JAGJITSINGH:/$ find . -name "*.log" -mtime -1
 cat /etc/shells # will give all shells supported by ur system
 :wq # to write and quit
 :q! # to quit
-
+jagjitsingh@JAGJITSINGH:/mnt/c/bigdata$ source helloworld.sh
 39)touch helloworld.sh #to make script file
 40)chmod u+x helloworld.sh #give execute permission
 41)./helloworld # execute script file
