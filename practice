@@ -1,6 +1,14 @@
 1)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 #will give complete list of lines in file containing CLOSED
 2)grep -i CLOSED /mnt/c/data/retail_db/orders/part-00000 | wc -l #will give count of lines in file
-3) find  . -name "create_log*.log" -mtime +7 #not understood
+ls -ltr | grep jagjitsingh
+ls -ltr | grep rwxrwxrwx
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000|head
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep COMPLETE part-00000|head
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ view part-00000
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db/orders$ grep CLOSED part-00000 | wc -l
+jagjitsingh@JAGJITSINGH:/mnt/c/data/retail_db$ wc -l */part*
+find . -name "*.txt"
+jagjitsingh@JAGJITSINGH:/$ find . -name "*.log" -mtime -1
 4)uname -a #
 5)[jagjit8301@gw02 orders]$ cut -d, -f2 part-00000 #
 6)[jagjit8301@gw02 orders]$ cut -d, -f2,4 part-00000|head #
@@ -36,10 +44,20 @@
 36)ll
 37)jagjitsingh@JAGJITSINGH:~$ ssh-copy-id jagjit8301@gw02.itversity.com
 38)jagjitsingh@JAGJITSINGH:~$ ssh-keygen
-39)touch helloworld.sh
-40)chmod u+x helloworld.sh
-41)./helloworld
-42)vi helloworld.sh
+#shell scripting
+cat /etc/shells # will give all shells supported by ur system
+:wq # to write and quit
+:q! # to quit
+
+39)touch helloworld.sh #to make script file
+40)chmod u+x helloworld.sh #give execute permission
+41)./helloworld # execute script file
+42)vi helloworld.sh #open script file
+
+
 43)[jagjit8301@gw02 ~]$ mysql -h ms.itversity.com -u retail_user -p for going to mysql
 44)[jagjit8301@gw02 retail_db]$ wc -l */part*
 45)ls -lthr
+46)sudo visudo
+47)sudo su - root
+48)ps -ef | grep sshd
